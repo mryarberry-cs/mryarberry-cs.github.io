@@ -1,59 +1,49 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Mr. Yarberry's CS</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f4f4f4;
+  color: #222;
+}
 
-  <header>
-    <h1>Mr. Yarberry's CS</h1>
-    <p>Computer Science, Game Design, Software Technology, and TSA</p>
-  </header>
+header {
+  background-color: #1f2937;
+  color: white;
+  padding: 30px;
+  text-align: center;
+}
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="ist.html">IST</a>
-    <a href="csp.html">CSP</a>
-    <a href="gdu.html">GDU</a>
-    <a href="tsa.html">TSA</a>
-    <a href="resources.html">Resources</a>
-    <a href="parent-info.html">Parent Info</a>
-    <a href="student-help.html">Student Help</a>
-  </nav>
+nav {
+  background-color: #111827;
+  padding: 12px;
+  text-align: center;
+}
 
-  <main>
-    <section>
-      <h2>Welcome</h2>
-      <p>
-        This website is the public information hub for Mr. Yarberry's computer science pathway.
-        Students and families can use this site to learn about course pacing, major projects,
-        classroom tools, and TSA opportunities.
-      </p>
-    </section>
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
 
-    <section>
-      <h2>Course Pathway</h2>
-      <ul>
-        <li><strong>IST:</strong> Introduction to Software Technology</li>
-        <li><strong>CSP:</strong> Computer Science Principles</li>
-        <li><strong>GDU:</strong> Game Development in Unity</li>
-      </ul>
-    </section>
+nav a:hover {
+  text-decoration: underline;
+}
 
-    <section>
-      <h2>Important Note</h2>
-      <p>
-        This website does not contain student grades, private assignment links, or individual student work.
-        Students will receive official assignment links through the approved classroom system.
-      </p>
-    </section>
-  </main>
+main {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
 
-  <footer>
-    <p>&copy; 2026 Mr. Yarberry's CS</p>
-  </footer>
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
 
-</body>
-</html>
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
